@@ -21,3 +21,9 @@ Biblioteca utilizada para generalizar as importações dos controller no routes.
 
 Modulo de paginação ao retornar as informaçoes do banco de dados
   yarn add mongoose-paginate
+
+Modulo para envio de email
+  yarn add nodemailer
+
+
+Servidor de email fake: https://mailtrap.io/
