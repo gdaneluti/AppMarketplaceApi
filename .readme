@@ -46,3 +46,6 @@ Modulo que é como se fosse um formatador de erro
 
 Modulo que perimite enviar os erros dentro das promisses para o exception handler
   yarn add express-async-handler
+
+Module Sentry
+  yarn add @sentry/node
