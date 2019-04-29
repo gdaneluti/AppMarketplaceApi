@@ -40,3 +40,9 @@ Instalação do servidor de filas
 Bibliotecas para validacao
   yarn add joi
   yarn add express-validation
+
+Modulo que é como se fosse um formatador de erro
+  yarn add youch
+
+Modulo que perimite enviar os erros dentro das promisses para o exception handler
+  yarn add express-async-handler
