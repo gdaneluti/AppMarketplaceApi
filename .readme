@@ -30,3 +30,9 @@ Servidor de email fake: https://mailtrap.io/
 
 Modulos para envio de email com template HTML
   yarn add nodemailer-express-handlebars express-handlebars
+
+Instalação do Redis com docker:
+  sudo docker run --name noderedis -p 6379:6379 -d -t redis:alpine
+
+Instalação do servidor de filas
+  yarn add kue
