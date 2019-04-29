@@ -13,4 +13,5 @@ Instalação do MongoDB:
 Biblioteca para criptografia de senha:
   yarn add bcryptjs
 
-
+Modulo para geração de token JWT
+  yarn add jsonwebtoken
