@@ -1,0 +1,7 @@
+Comandos executados para funcionamento do projeto
+
+yarn add express
+
+yarn add nodemon -D
+
+yarn eslint --init
