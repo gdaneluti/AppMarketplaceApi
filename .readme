@@ -27,3 +27,6 @@ Modulo para envio de email
 
 
 Servidor de email fake: https://mailtrap.io/
+
+Modulos para envio de email com template HTML
+  yarn add nodemailer-express-handlebars express-handlebars
