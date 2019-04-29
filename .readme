@@ -10,4 +10,7 @@ Instalação do MongoDB:
   sudo docker run --name mongonode -p 27017:27017 -d -t mongo
   yarn add mongoose
 
+Biblioteca para criptografia de senha:
+  yarn add bcryptjs
+
 
