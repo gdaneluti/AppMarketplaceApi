@@ -49,3 +49,6 @@ Modulo que perimite enviar os erros dentro das promisses para o exception handle
 
 Module Sentry
   yarn add @sentry/node
+
+Modulo para variaveis ambiente
+  yarn add dotenv
