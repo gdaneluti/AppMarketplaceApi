@@ -15,3 +15,6 @@ Biblioteca para criptografia de senha:
 
 Modulo para geração de token JWT
   yarn add jsonwebtoken
+
+Biblioteca utilizada para generalizar as importações dos controller no routes.js
+  yarn add require-dir
