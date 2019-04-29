@@ -2,11 +2,22 @@ const express = require('express')
 
 const routes = express.Router()
 
-const controller = require('./app/controllers')
+const controllers = require('./app/controllers')
 const authMiddleware = require('./app/middlewares/auth')
 
-routes.post('/users', controller.UserController.store)
-routes.post('/sessions', controller.SessionController.store)
+routes.post('/users', controllers.UserController.store)
+routes.post('/sessions', controllers.SessionController.store)
 
-routes.get('/teste', authMiddleware, (req, res) => res.json({ ok: true }))
+// Toda rota a partir daqui para baixo irá utilizar o middleware de auth
+routes.use(authMiddleware)
+
+/**
+ * Ads
+ */
+routes.get('/ads', controllers.AdController.index)
+routes.get('/ads/:id', controllers.AdController.show)
+routes.post('/ads', controllers.AdController.store)
+routes.put('/ads/:id', controllers.AdController.update)
+routes.delete('/ads/:id', controllers.AdController.destroy)
+
 module.exports = routes
