@@ -36,3 +36,7 @@ Instalação do Redis com docker:
 
 Instalação do servidor de filas
   yarn add kue
+
+Bibliotecas para validacao
+  yarn add joi
+  yarn add express-validation
